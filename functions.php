@@ -308,7 +308,7 @@ function lcworks_image_header() {
 	register_post_type( 'image_header', $args );
 
 }
-add_action( 'init', 'lcworks_image_header', 0 );
+//add_action( 'init', 'lcworks_image_header', 0 );
 
 $chdefaults = array(
 	'default-image' => get_stylesheet_directory_uri() . '/images/employ-logo.png',
