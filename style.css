@@ -63,7 +63,7 @@ img.alignleft{float:left;margin:0 1em 1em 0}img.aligncenter{display:block;margin
 .alignright{float:right}.alignleft{float:left}.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .columns.gateway-header img{width:100%;max-width:100%;height:auto}img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{width:100%;max-width:100%;height:auto}
 .row{max-width:63rem}.main-container{padding:2rem 1rem}.content-area{padding-left:0}
-.left-nav-container{padding-top:.7rem;padding-left:0;padding-right:0}.side-bar-container{padding-top:.8rem;background:#d3d3d3}
+.left-nav-container{padding-top:.7rem;padding-left:0;padding-right:0}.side-bar-container{padding-top:.8rem;}
 .row .column-block{padding-right:0;padding-left:.2rem}.row .column-block:last-child{padding-right:.2rem;padding-left:.2rem}
 /*!
 Section 4: Header
