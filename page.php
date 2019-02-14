@@ -15,7 +15,7 @@ get_header(); ?>
 <div class="small-12 medium-12 large-12 columns main-container">
 	
 	<div id="primary" class="small-12 medium-12 columns content-area">
-		<div class="medium-4 columns show-for-medium left-nav-container">
+		<div class="medium-3 columns show-for-medium left-nav-container">
 		 <div id="secondary" class="medium-12 columns secondary nopadding">
 		<?php if ( has_nav_menu( 'left-nav' ) ) : ?>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -30,7 +30,7 @@ get_header(); ?>
 				<?php endif; ?>
 	</div>
 		</div>
-		<div class="small-12 medium-8 columns">
+		<div class="small-12 medium-9 columns">
 		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
