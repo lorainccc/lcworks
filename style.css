@@ -24,7 +24,11 @@ Section 6: Footer
 Variables Section
 *//*!*********************
 CUSTOM VARIABLES
-**********************//*!*********************
+**********************/
+/* Reset Styles */
+.menu > li > a { padding:0;}
+
+/*!*********************
 DEFAULT VARIABLES
 **********************//*!
 Color Section : LCCC Color Scheme
