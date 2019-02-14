@@ -44,7 +44,8 @@
 											'menu_class' => 'dropdown menu',
 											'theme_location' => 'primary',
 											'items_wrap'      => '<ul id="%1$s" class="%2$s" role="menubar" data-dropdown-menu>%3$s</ul>',
-											//Recommend setting this to false, but if you need a fallback...
+											'item_sep' => '|'
+		  									//Recommend setting this to false, but if you need a fallback...
 											'fallback_cb' => 'lc_topbar_menu_fallback',
 											'walker' => new lc_top_bar_menu_walker,
 												));
