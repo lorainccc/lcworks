@@ -76,8 +76,8 @@ Section 5: Navigation
 .menu.vertical>li{border-bottom:solid 1px #777}.menu.vertical>li:last-child{border-bottom:0}
 .is-drilldown-submenu-parent>a::after{border-color:transparent transparent transparent #fff}
 .menu>li>a:hover{background:#fff;color:#000;text-decoration:underline}.menu>li>a:active{background:#000;color:#fff;text-decoration:underline}
-}header nav a,header nav a:hover{color:#fefefe;font-size:.875rem;font-weight:600 padding: 10px 11px;}
-header ul#header-menu li a{font-size:.78125rem;color:#0055a5;font-weight:700}header .menu:not(#menu-header-shortcuts):not(.vertical) li:hover,header .dropdown.menu .submenu{background:#0c3b78;border:0}
+}header nav a,header nav a:hover{color:#fefefe;font-size:.875rem;font-weight:600;padding: 10px 11px;}.top-bar ul li:before {content:"|";}
+.top-bar ul li:first-of-type:before {content:"";}header ul#header-menu li a{font-size:.78125rem;color:#0055a5;font-weight:700}header .menu:not(#menu-header-shortcuts):not(.vertical) li:hover,header .dropdown.menu .submenu{background:#0c3b78;border:0}
 header li.is-submenu-item{padding:.1rem 0;border-top:1px solid #0055a5}header .submenu{margin-top:-1px}
 header .submenu li{text-align:left}header .dropdown.menu .submenu li:hover{background:#fefefe !important;border-top:1px solid #0055a5 !important}
 header .dropdown.menu .submenu li:hover a{color:#0c3b78}header li.is-submenu-item:not(.is-drilldown-submenu-item) a{color:#fefefe;font-size:.85rem}
