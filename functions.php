@@ -156,7 +156,7 @@ function lcworks_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'lcworks_scripts' );
+add_action( 'wp_enqueue_scripts', 'lcworks_scripts', 99 );
 
 /**
  * Implement the Custom Header feature.
