@@ -49,8 +49,5 @@ get_header(); ?>
 		</main><!-- #main -->
 			</div>
 	</div><!-- #primary -->
-<div class="small-12 medium-4 columns side-bar-container">
-<?php get_sidebar(); ?>
-</div>
 </div>	
 <?php get_footer(); ?>
