@@ -14,7 +14,7 @@ get_header(); ?>
 
 <div class="small-12 medium-12 large-12 columns main-container">
 	
-	<div id="primary" class="small-12 medium-8 columns content-area">
+	<div id="primary" class="small-12 medium-12 columns content-area">
 		<div class="medium-4 columns show-for-medium left-nav-container">
 		 <div id="secondary" class="medium-12 columns secondary nopadding">
 		<?php if ( has_nav_menu( 'left-nav' ) ) : ?>
